@@ -1,0 +1,23 @@
+{
+  "name": "claude-skills",
+  "owner": {
+    "name": "David J. Bianco",
+    "email": ""
+  },
+  "metadata": {
+    "description": "Custom skills for Claude Code: product requirements discovery and iterative improvement loops",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "product-requirements",
+      "description": "Product requirements discovery and PRD generation through structured interviews. Conducts a thorough interview, writes a comprehensive PRD, has it reviewed by a second expert, and creates an AGENTS.md file.",
+      "source": "./plugins/product-requirements"
+    },
+    {
+      "name": "improve-loop",
+      "description": "Automated iterative improvement loop for any project. Reads project docs, proposes an evaluation strategy, then runs a generate-evaluate-fix loop with optional expert panel review.",
+      "source": "./plugins/improve-loop"
+    }
+  ]
+}

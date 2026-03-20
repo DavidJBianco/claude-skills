@@ -1,0 +1,8 @@
+{
+  "name": "product-requirements",
+  "description": "Product requirements discovery and PRD generation through structured interviews. Conducts a thorough interview, writes a comprehensive PRD, has it reviewed by a second expert, and creates an AGENTS.md file.",
+  "version": "1.0.0",
+  "author": {
+    "name": "David J. Bianco"
+  }
+}

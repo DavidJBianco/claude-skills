@@ -1,0 +1,8 @@
+{
+  "name": "improve-loop",
+  "description": "Automated iterative improvement loop for any project. Reads project docs, proposes an evaluation strategy, then runs a generate-evaluate-fix loop with optional expert panel review.",
+  "version": "1.0.0",
+  "author": {
+    "name": "David J. Bianco"
+  }
+}
